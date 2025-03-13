@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Library---------------------------------------------------
-day_df = pd.read_csv("main_data.csv")
+day_df = pd.read_csv("/mount/src/bike-share-wahyu-submission/Submission/dashboard/main_data.csv")
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
 
 mnth_name = {
